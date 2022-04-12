@@ -73,7 +73,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void saveAndNavigateToHome(String profileName) {
-        this.profileName = this.profileName;
+        this.profileName = profileName;
+
         navigateToHome();
     }
 
